@@ -23,21 +23,64 @@
  	</div>
  </nav>
 </header>
-	<div></div>
- <footer>
- 	<div>
- 	 <h3>Acerca de coincapro</h3>
- 	 <ul class="footer">
- 		<li><a href="">¿Quiénes somos?</a></li>
- 		<li><a href="">Servicio al cliente</a></li>
- 		<li><a href="">Terminos de uso</a></li>
- 	</ul>
-   </div>
-   <div>
-   	<a href=""><img src="" alt=""></a>
-   	<a href=""><img src="" alt=""></a>
-   	<a href=""><img src="" alt=""></a>
-   </div>
- </footer>
+<div>
+	<form action="envio.php" method="post"> 
+		<fieldset class="login">
+			<legend >Ingresar usuario</legend>
+			<div class="mb-3 registro">
+			<label for="nombre" class="form-label ">Nombre y apellido</label>
+			<input type="nombre" class="form-control" placeholder="Nombre y apellido" name="nombre" id="nombre">
+			</div>
+			<div class="mb-3 registro">
+			<label for="email" class="form-label">Email</label>
+			<input type="email" class="form-control" name="email" id="email">
+			</div>
+			<div class="mb-3 registro">
+			<label for="contraseña" class="form-label">Contraseña</label>
+			<input type="password" class="form-control" name="password" id="password">
+			</div>
+			<div class="mb-3 registro">
+			<label for="sexo" class="form-label"> sexo</label>
+			<select name="sexo" class="form-select" id="sexo">
+				<option value="Men">Hombre</option>
+				<option value="Women">Mujer</option>
+			</select>
+		   </div>
+		   <div class="mb-3 form-check">
+			<input type="checkbox" class="form-check-input"><label for="checkbox">Aceptar terminos y condicones</label>
+			</div>
+			
+			<input type="submit" class="btn btn-primary" value="Enviar">
+			<input type="reset" class="btn btn-primary" value="Cancelar">
+			
+		
+		</fieldset>
+	</form>
+</div>
+<footer>
+	<div class="container">
+	  <div class="row">
+		  <div class="col-xs-12 col-md-6">
+			  <h6 class="text-muted lead">CONTACTO:</h6>
+			  <h6 class="text-muted">
+			  Convencion, Norte de santander<br>
+			  villalbajhonatan15@gmail.com <br>
+			  Teléfonos: 3219898354 – 3137572855.<br>
+			  </h6>
+		  </div>
+		  <div class="col-xs-12 col-md-6">
+		  <div class="pull-right">
+		  <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
+				<div class="redes-footer">
+					<a href="https://www.facebook.com/"><img src="../img/facebook-2.png"></a>
+					<a href="https://twitter.com/"><img src="../img/twitter-2.png"></a>
+					<a href="https://www.youtube.com/"><img src="../img/youtube-2.png"></a>
+				</div>
+		  </div>
+		  <div class="row"> <p class="text-muted small text-right">Jhonatan Villalba Chinchilla Productos Organicos @2022.<br> Todos los derechos reservados.</p></div>
+	  </div>
+	</div>  
+  </div>
+  </footer>
 </body>
 </html>
