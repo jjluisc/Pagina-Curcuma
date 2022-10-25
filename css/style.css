@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+header nav div img{
+	width: 80%;
+	
+}
+ ul{
+ 	list-style: none;
+}
+footer div ul li a{
+	text-decoration: none;
+}
+h1{
+	color: rgb(0, 0, 0);
+}
+div h2{
+	color: rgb(0, 0, 0);
+	font-size: 1rem;
+	font-family: sans-serif, roboto;
+}
+h3{
+	color: rgb(0, 0, 0);
+	font-size: 1rem;
+	font-family: sans-serif, roboto ;
+}
+h3.info1{
+	color: rgb(255, 64, 0);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 4rem;
+	position: static;
+	block-size: 30%;
+	inline-size: auto;
+	transform: translate(24% ,-1000%);
+}
+h3.info2{
+	color: rgb(255, 64, 0);
+	font-size: 4rem;
+	transform: translate(0% ,-200%);
+
+}
+div.contenedor{
+width: 100%;
+overflow: hidden;
+}
+header nav {
+    justify-content: space-between;
+	display: flex;
+	position: relative;
+	font-family:roboto, sans-serif ;
+}
+	header nav div ul li a{
+		text-decoration: none;
+		display: flex;
+    	color: rgb(225,225,225);	
+	    padding: 1rem 3rem;
+	    margin: 0px 0px 0px 0px;
+	    font-size: 1.1rem;
+	    font-weight: bold;
+} 
+.headertop{
+	position: relative;
+	background-color: rgb(85,199,70);
+	padding: 0.3rem 1rem;
+	margin: auto ;
+	width: auto;
+}
+.marca{
+
+}
+.logo{
+max-height: auto;
+margin: 0px 0px 0px 0px;
+padding: auto;
+align-content: center;
+
+
+
+}
+.botonera{
+	position: relative;
+	display: flex;
+	padding: 0.3rem 1rem;
+	margin: auto;
+	justify-content: space-evenly;
+
+}
+.infIni{
+	width: 100%;
+	margin:0rem auto;
+	padding:0rem auto;
+	align-content: center;
+}
+.contenedor a{
+	position: relative;
+	padding: 5px 20px;
+	margin: 0px 2px;
+	text-decoration: none;
+}
